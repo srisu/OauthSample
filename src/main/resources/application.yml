@@ -1,0 +1,12 @@
+successUrl: "/home"
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            clientId: your_github_clientId
+            clientSecret: your_github_clientSecret
+          google:
+            client-id: your_gooogle_clientId
+            client-secret: your_google_clientSecret
